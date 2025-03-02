@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2445A2FF2D856FB5002C1F3F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2445A2FE2D856FB5002C1F3F /* icon.png */; };
 		CF3237BD28D1AACE008941FE /* SingletonPrintLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3237BC28D1AACE008941FE /* SingletonPrintLog.swift */; };
 		CF34BD8B29D6C0A200F69E9E /* SingletonOpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34BD8A29D6C0A200F69E9E /* SingletonOpt.swift */; };
 		CF39BCA228C42D7200CB35AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39BCA128C42D7200CB35AE /* AppDelegate.swift */; };
@@ -21,10 +22,10 @@
 		CF6561FF28D1AE6F0085AC8D /* Testcases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6561FE28D1AE6F0085AC8D /* Testcases.swift */; };
 		CF714A5B28E6C273000CBDEE /* SingletonMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF714A5A28E6C273000CBDEE /* SingletonMenu.swift */; };
 		CF714A5D28E6C62C000CBDEE /* Keyboard390.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF714A5C28E6C62C000CBDEE /* Keyboard390.swift */; };
-		CF8F931D2D718F5300955352 /* navilime.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8F931C2D718F5300955352 /* navilime.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2445A2FE2D856FB5002C1F3F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		CF3237BC28D1AACE008941FE /* SingletonPrintLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPrintLog.swift; sourceTree = "<group>"; };
 		CF34BD8A29D6C0A200F69E9E /* SingletonOpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonOpt.swift; sourceTree = "<group>"; };
 		CF39BC9E28C42D7200CB35AE /* NavilIME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavilIME.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +43,6 @@
 		CF6561FE28D1AE6F0085AC8D /* Testcases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testcases.swift; sourceTree = "<group>"; };
 		CF714A5A28E6C273000CBDEE /* SingletonMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonMenu.swift; sourceTree = "<group>"; };
 		CF714A5C28E6C62C000CBDEE /* Keyboard390.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard390.swift; sourceTree = "<group>"; };
-		CF8F931C2D718F5300955352 /* navilime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navilime.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +75,7 @@
 		CF39BCA028C42D7200CB35AE /* NavilIME */ = {
 			isa = PBXGroup;
 			children = (
+				2445A2FE2D856FB5002C1F3F /* icon.png */,
 				CF6561F728D1AE010085AC8D /* Automata */,
 				CF39BCB028C49D3800CB35AE /* Info.plist */,
 				CF39BCA128C42D7200CB35AE /* AppDelegate.swift */,
@@ -86,7 +87,6 @@
 				CF39BCA328C42D7300CB35AE /* Assets.xcassets */,
 				CF39BCA528C42D7300CB35AE /* MainMenu.xib */,
 				CF39BCA828C42D7300CB35AE /* NavilIME.entitlements */,
-				CF8F931C2D718F5300955352 /* navilime.png */,
 			);
 			path = NavilIME;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8F931D2D718F5300955352 /* navilime.png in Resources */,
 				CF39BCA428C42D7300CB35AE /* Assets.xcassets in Resources */,
 				CF39BCA728C42D7300CB35AE /* MainMenu.xib in Resources */,
+				2445A2FF2D856FB5002C1F3F /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
