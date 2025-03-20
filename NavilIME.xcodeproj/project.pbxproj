@@ -18,11 +18,9 @@
 		CF40CD3028EFF6CC000CCB7B /* Keyboard002.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF40CD2F28EFF6CB000CCB7B /* Keyboard002.swift */; };
 		CF482862291A21DD0020EC2B /* SingletonHotfix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF482861291A21DD0020EC2B /* SingletonHotfix.swift */; };
 		CF6561F928D1AE240085AC8D /* Hangul.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6561F828D1AE240085AC8D /* Hangul.swift */; };
-		CF6561FB28D1AE340085AC8D /* Keyboard318.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6561FA28D1AE340085AC8D /* Keyboard318.swift */; };
 		CF6561FD28D1AE590085AC8D /* Keyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6561FC28D1AE590085AC8D /* Keyboards.swift */; };
 		CF6561FF28D1AE6F0085AC8D /* Testcases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6561FE28D1AE6F0085AC8D /* Testcases.swift */; };
 		CF714A5B28E6C273000CBDEE /* SingletonMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF714A5A28E6C273000CBDEE /* SingletonMenu.swift */; };
-		CF714A5D28E6C62C000CBDEE /* Keyboard390.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF714A5C28E6C62C000CBDEE /* Keyboard390.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,11 +38,9 @@
 		CF40CD2F28EFF6CB000CCB7B /* Keyboard002.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard002.swift; sourceTree = "<group>"; };
 		CF482861291A21DD0020EC2B /* SingletonHotfix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonHotfix.swift; sourceTree = "<group>"; };
 		CF6561F828D1AE240085AC8D /* Hangul.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hangul.swift; sourceTree = "<group>"; };
-		CF6561FA28D1AE340085AC8D /* Keyboard318.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard318.swift; sourceTree = "<group>"; };
 		CF6561FC28D1AE590085AC8D /* Keyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboards.swift; sourceTree = "<group>"; };
 		CF6561FE28D1AE6F0085AC8D /* Testcases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testcases.swift; sourceTree = "<group>"; };
 		CF714A5A28E6C273000CBDEE /* SingletonMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonMenu.swift; sourceTree = "<group>"; };
-		CF714A5C28E6C62C000CBDEE /* Keyboard390.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard390.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +95,6 @@
 				CF6561F828D1AE240085AC8D /* Hangul.swift */,
 				CF6561FC28D1AE590085AC8D /* Keyboards.swift */,
 				CF6561FE28D1AE6F0085AC8D /* Testcases.swift */,
-				CF6561FA28D1AE340085AC8D /* Keyboard318.swift */,
-				CF714A5C28E6C62C000CBDEE /* Keyboard390.swift */,
 				24BB48222D858594009A438B /* KeyboardSemoi.swift */,
 				CF40CD2F28EFF6CB000CCB7B /* Keyboard002.swift */,
 			);
@@ -178,12 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF714A5D28E6C62C000CBDEE /* Keyboard390.swift in Sources */,
 				CF40CD3028EFF6CC000CCB7B /* Keyboard002.swift in Sources */,
 				CF6561FD28D1AE590085AC8D /* Keyboards.swift in Sources */,
 				CF39BCA228C42D7200CB35AE /* AppDelegate.swift in Sources */,
 				CF6561FF28D1AE6F0085AC8D /* Testcases.swift in Sources */,
-				CF6561FB28D1AE340085AC8D /* Keyboard318.swift in Sources */,
 				CF3237BD28D1AACE008941FE /* SingletonPrintLog.swift in Sources */,
 				CF34BD8B29D6C0A200F69E9E /* SingletonOpt.swift in Sources */,
 				CF482862291A21DD0020EC2B /* SingletonHotfix.swift in Sources */,
