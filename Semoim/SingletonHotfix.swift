@@ -1,34 +1,28 @@
-//
-//  SingletonHotfix.swift
-//  NavilIME
-//
-//  Created by Manwoo Yi on 11/7/22.
-//
-
 import Foundation
 
 class Hotfix {
     static let shared = Hotfix()
-    
-    let pattern:[[UInt16]] = [
-        [0x32, 0x32, 0x32, 0x08],   // ```c  마크다운 코드 블럭 시작, ```ᄎ 을 방지
-        [0x1D, 0x07]                // 0x    16진수 prefix, 0ᄐ 을 방지
+
+    // 특정 패턴 입력은 한글로 변환하지 않는다.
+    let pattern: [[UInt16]] = [
+        [0x32, 0x32, 0x32, 0x08],  // ```c 마크다운 C 코드 블럭 시작
+        [0x1D, 0x07],  // 0x 16진수 prefix
     ]
-    
+
     // 10 칸이면 충분하다.
-    let circular_stack = CircularStack(count:10)
-    
-    private init() { }
-    
+    let circular_stack = CircularStack(count: 10)
+
+    private init() {}
+
     func add(_ elelemt: UInt16) {
         self.circular_stack.push(elelemt)
     }
-    
+
     func check() -> Bool {
-        for pat in self.pattern {
-            let latest = self.circular_stack.pop(pat.count, update: false)
-            if latest == pat {
-                _ = self.circular_stack.pop(pat.count, update: true)
+        for p in self.pattern {
+            let latest = self.circular_stack.pop(p.count, update: false)
+            if latest == p {
+                _ = self.circular_stack.pop(p.count, update: true)
                 return true
             }
         }
@@ -56,9 +50,9 @@ class CircularStack {
     }
 
     // update가 true면 self.stack_top을 바꾼다. 즉, stack에서 elelemnt를 지운다.
-    func pop(_ len:Int, update:Bool) -> [UInt16] {
-        var peeked_arr:[UInt16] = []
-        var cur:Int = 0
+    func pop(_ len: Int, update: Bool) -> [UInt16] {
+        var peeked_arr: [UInt16] = []
+        var cur: Int = 0
         // 마지막 입력은 stack top에서 한 칸 뒤
         let last_idx = self.stack_top - 1
         for idx in 0..<len {

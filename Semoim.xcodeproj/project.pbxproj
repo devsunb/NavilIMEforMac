@@ -14,7 +14,7 @@
 		CF39BCA228C42D7200CB35AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39BCA128C42D7200CB35AE /* AppDelegate.swift */; };
 		CF39BCA428C42D7300CB35AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF39BCA328C42D7300CB35AE /* Assets.xcassets */; };
 		CF39BCA728C42D7300CB35AE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF39BCA528C42D7300CB35AE /* MainMenu.xib */; };
-		CF39BCAF28C49BDA00CB35AE /* NavilIMEInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39BCAE28C49BDA00CB35AE /* NavilIMEInputController.swift */; };
+		CF39BCAF28C49BDA00CB35AE /* SemoimInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39BCAE28C49BDA00CB35AE /* SemoimInputController.swift */; };
 		CF40CD3028EFF6CC000CCB7B /* Keyboard002.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF40CD2F28EFF6CB000CCB7B /* Keyboard002.swift */; };
 		CF482862291A21DD0020EC2B /* SingletonHotfix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF482861291A21DD0020EC2B /* SingletonHotfix.swift */; };
 		CF6561F928D1AE240085AC8D /* Hangul.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6561F828D1AE240085AC8D /* Hangul.swift */; };
@@ -28,12 +28,12 @@
 		24BB48222D858594009A438B /* KeyboardSemoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSemoi.swift; sourceTree = "<group>"; };
 		CF3237BC28D1AACE008941FE /* SingletonPrintLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPrintLog.swift; sourceTree = "<group>"; };
 		CF34BD8A29D6C0A200F69E9E /* SingletonOpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonOpt.swift; sourceTree = "<group>"; };
-		CF39BC9E28C42D7200CB35AE /* NavilIME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavilIME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF39BC9E28C42D7200CB35AE /* Semoim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semoim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF39BCA128C42D7200CB35AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF39BCA328C42D7300CB35AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF39BCA628C42D7300CB35AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		CF39BCA828C42D7300CB35AE /* NavilIME.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavilIME.entitlements; sourceTree = "<group>"; };
-		CF39BCAE28C49BDA00CB35AE /* NavilIMEInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavilIMEInputController.swift; sourceTree = "<group>"; };
+		CF39BCA828C42D7300CB35AE /* Semoim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Semoim.entitlements; sourceTree = "<group>"; };
+		CF39BCAE28C49BDA00CB35AE /* SemoimInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemoimInputController.swift; sourceTree = "<group>"; };
 		CF39BCB028C49D3800CB35AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CF40CD2F28EFF6CB000CCB7B /* Keyboard002.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard002.swift; sourceTree = "<group>"; };
 		CF482861291A21DD0020EC2B /* SingletonHotfix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonHotfix.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		CF39BC9528C42D7200CB35AE = {
 			isa = PBXGroup;
 			children = (
-				CF39BCA028C42D7200CB35AE /* NavilIME */,
+				CF39BCA028C42D7200CB35AE /* Semoim */,
 				CF39BC9F28C42D7200CB35AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,28 +65,28 @@
 		CF39BC9F28C42D7200CB35AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF39BC9E28C42D7200CB35AE /* NavilIME.app */,
+				CF39BC9E28C42D7200CB35AE /* Semoim.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF39BCA028C42D7200CB35AE /* NavilIME */ = {
+		CF39BCA028C42D7200CB35AE /* Semoim */ = {
 			isa = PBXGroup;
 			children = (
 				2445A2FE2D856FB5002C1F3F /* icon.png */,
 				CF6561F728D1AE010085AC8D /* Automata */,
 				CF39BCB028C49D3800CB35AE /* Info.plist */,
 				CF39BCA128C42D7200CB35AE /* AppDelegate.swift */,
-				CF39BCAE28C49BDA00CB35AE /* NavilIMEInputController.swift */,
+				CF39BCAE28C49BDA00CB35AE /* SemoimInputController.swift */,
 				CF3237BC28D1AACE008941FE /* SingletonPrintLog.swift */,
 				CF714A5A28E6C273000CBDEE /* SingletonMenu.swift */,
 				CF482861291A21DD0020EC2B /* SingletonHotfix.swift */,
 				CF34BD8A29D6C0A200F69E9E /* SingletonOpt.swift */,
 				CF39BCA328C42D7300CB35AE /* Assets.xcassets */,
 				CF39BCA528C42D7300CB35AE /* MainMenu.xib */,
-				CF39BCA828C42D7300CB35AE /* NavilIME.entitlements */,
+				CF39BCA828C42D7300CB35AE /* Semoim.entitlements */,
 			);
-			path = NavilIME;
+			path = Semoim;
 			sourceTree = "<group>";
 		};
 		CF6561F728D1AE010085AC8D /* Automata */ = {
@@ -104,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF39BC9D28C42D7200CB35AE /* NavilIME */ = {
+		CF39BC9D28C42D7200CB35AE /* Semoim */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF39BCAB28C42D7300CB35AE /* Build configuration list for PBXNativeTarget "NavilIME" */;
+			buildConfigurationList = CF39BCAB28C42D7300CB35AE /* Build configuration list for PBXNativeTarget "Semoim" */;
 			buildPhases = (
 				CF39BC9A28C42D7200CB35AE /* Sources */,
 				CF39BC9B28C42D7200CB35AE /* Frameworks */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = NavilIME;
-			productName = NavilIME;
-			productReference = CF39BC9E28C42D7200CB35AE /* NavilIME.app */;
+			name = Semoim;
+			productName = Semoim;
+			productReference = CF39BC9E28C42D7200CB35AE /* Semoim.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,14 +129,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					CF39BC9D28C42D7200CB35AE = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = CF39BC9928C42D7200CB35AE /* Build configuration list for PBXProject "NavilIME" */;
+			buildConfigurationList = CF39BC9928C42D7200CB35AE /* Build configuration list for PBXProject "Semoim" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF39BC9D28C42D7200CB35AE /* NavilIME */,
+				CF39BC9D28C42D7200CB35AE /* Semoim */,
 			);
 		};
 /* End PBXProject section */
@@ -181,7 +181,7 @@
 				CF482862291A21DD0020EC2B /* SingletonHotfix.swift in Sources */,
 				CF6561F928D1AE240085AC8D /* Hangul.swift in Sources */,
 				CF714A5B28E6C273000CBDEE /* SingletonMenu.swift in Sources */,
-				CF39BCAF28C49BDA00CB35AE /* NavilIMEInputController.swift in Sources */,
+				CF39BCAF28C49BDA00CB35AE /* SemoimInputController.swift in Sources */,
 				24BB48232D858594009A438B /* KeyboardSemoi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +204,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -266,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -322,17 +324,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NavilIME/NavilIME.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Semoim/Semoim.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 370;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 232X8633XC;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NavilIME/Info.plist;
+				INFOPLIST_FILE = Semoim/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -342,7 +345,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 7.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.navilera.inputmethod.NavilIME;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sunb.inputmethod.semoim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,17 +357,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NavilIME/NavilIME.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Semoim/Semoim.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 370;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 232X8633XC;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NavilIME/Info.plist;
+				INFOPLIST_FILE = Semoim/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -374,7 +378,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 7.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.navilera.inputmethod.NavilIME;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sunb.inputmethod.semoim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF39BC9928C42D7200CB35AE /* Build configuration list for PBXProject "NavilIME" */ = {
+		CF39BC9928C42D7200CB35AE /* Build configuration list for PBXProject "Semoim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF39BCA928C42D7300CB35AE /* Debug */,
@@ -393,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF39BCAB28C42D7300CB35AE /* Build configuration list for PBXNativeTarget "NavilIME" */ = {
+		CF39BCAB28C42D7300CB35AE /* Build configuration list for PBXNativeTarget "Semoim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF39BCAC28C42D7300CB35AE /* Debug */,

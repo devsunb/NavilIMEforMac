@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>InputMethodConnectionName</key>
+	<string>Semoim</string>
+	<key>InputMethodServerControllerClass</key>
+	<string>SemoimInputController</string>
+	<key>TISIconIsTemplate</key>
+	<true/>
+	<key>tsInputMethodCharacterRepertoireKey</key>
+	<array>
+		<string>Hang</string>
+	</array>
+	<key>tsInputMethodIconFileKey</key>
+	<string>icon.png</string>
+</dict>
+</plist>

@@ -1,14 +1,7 @@
-//
-//  NavilIMEInputController.swift
-//  NavilIME
-//
-//  Created by Manwoo Yi on 9/4/22.
-//
-
 import InputMethodKit
 
-@objc(NavilIMEInputController)
-open class NavilIMEInputController: IMKInputController {
+@objc(SemoimInputController)
+open class SemoimInputController: IMKInputController {
     let key_code: String = "asdfhgzxcv\tbqweryt123465=97-80]ou[ip\tlj'k;\\,/nm.\t `"
     let shift_key_code: String = "ASDFHGZXCV\tBQWERYT!@#$^%+(&_*)}OU{IP\tLJ\"K:|<?NM>\t ~"
 
@@ -66,10 +59,7 @@ open class NavilIMEInputController: IMKInputController {
             return false
         }
 
-        if flag.contains(.command)
-            || flag.contains(.option)
-            || flag.contains(.control)
-        {
+        if flag.contains(.command) || flag.contains(.option) || flag.contains(.control) {
             PrintLog.shared.Log(log: "Modikey - \(keycode) with \(flag.rawValue)")
             return false
         }
@@ -159,10 +149,10 @@ open class NavilIMEInputController: IMKInputController {
             // 이 때 명시적으로 length = 0 인 NSRange를 setMarkedText()에 주어야만 자연스럽게 처리된다.
             let sr = NSRange(location: 0, length: preediting.count)
             let rr = NSRange(location: NSNotFound, length: NSNotFound)
-            PrintLog.shared.Log(log: "RR: \(rr) SR: \(sr) on \(String(describing: disp.bundleIdentifier()))")
+            // PrintLog.shared.Log(log: "RR: \(rr) SR: \(sr) on \(String(describing: disp.bundleIdentifier()))")
             disp.setMarkedText(preediting, selectionRange: sr, replacementRange: rr)
 
-            PrintLog.shared.Log(log: "\(build_count) Predit: \(preediting)")
+            // PrintLog.shared.Log(log: "\(build_count) Predit: \(preediting)")
         }
     }
 
@@ -189,10 +179,8 @@ open class NavilIMEInputController: IMKInputController {
     override open func recognizedEvents(_ sender: Any!) -> Int {
         return Int(
             NSEvent.EventTypeMask(
-                arrayLiteral: .keyDown, .flagsChanged,
-                .leftMouseUp, .rightMouseUp, .leftMouseDown, .rightMouseDown,
-                .leftMouseDragged, .rightMouseDragged,
-                .appKitDefined, .applicationDefined, .systemDefined
+                arrayLiteral: .keyDown, .flagsChanged, .leftMouseUp, .rightMouseUp, .leftMouseDown, .rightMouseDown,
+                .leftMouseDragged, .rightMouseDragged, .appKitDefined, .applicationDefined, .systemDefined
             ).rawValue)
     }
 
