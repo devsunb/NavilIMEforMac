@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2445A2FF2D856FB5002C1F3F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2445A2FE2D856FB5002C1F3F /* icon.png */; };
+		24BB48232D858594009A438B /* KeyboardSemoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BB48222D858594009A438B /* KeyboardSemoi.swift */; };
 		CF3237BD28D1AACE008941FE /* SingletonPrintLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3237BC28D1AACE008941FE /* SingletonPrintLog.swift */; };
 		CF34BD8B29D6C0A200F69E9E /* SingletonOpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34BD8A29D6C0A200F69E9E /* SingletonOpt.swift */; };
 		CF39BCA228C42D7200CB35AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39BCA128C42D7200CB35AE /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		2445A2FE2D856FB5002C1F3F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		24BB48222D858594009A438B /* KeyboardSemoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSemoi.swift; sourceTree = "<group>"; };
 		CF3237BC28D1AACE008941FE /* SingletonPrintLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPrintLog.swift; sourceTree = "<group>"; };
 		CF34BD8A29D6C0A200F69E9E /* SingletonOpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonOpt.swift; sourceTree = "<group>"; };
 		CF39BC9E28C42D7200CB35AE /* NavilIME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavilIME.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 				CF6561FE28D1AE6F0085AC8D /* Testcases.swift */,
 				CF6561FA28D1AE340085AC8D /* Keyboard318.swift */,
 				CF714A5C28E6C62C000CBDEE /* Keyboard390.swift */,
+				24BB48222D858594009A438B /* KeyboardSemoi.swift */,
 				CF40CD2F28EFF6CB000CCB7B /* Keyboard002.swift */,
 			);
 			path = Automata;
@@ -187,6 +190,7 @@
 				CF6561F928D1AE240085AC8D /* Hangul.swift in Sources */,
 				CF714A5B28E6C273000CBDEE /* SingletonMenu.swift in Sources */,
 				CF39BCAF28C49BDA00CB35AE /* NavilIMEInputController.swift in Sources */,
+				24BB48232D858594009A438B /* KeyboardSemoi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
